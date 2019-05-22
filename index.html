@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flip_game</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
+	<script>var trace=console.log.bind(window.console);</script>
+	<script src="libs/pixi-spine.js"></script>
+	
+	<style>
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		@font-face {
+		    font-family: MuseoSlabRegular; /* Имя шрифта */
+		    src: url(fonts/MuseoSlab-900.ttf) format('ttf'),
+		        url(fonts/MuseoSlab-900.woff2) format('woff2'), /* Путь к файлу со шрифтом */		  
+		        url(fonts/MuseoSlab-900.woff) format('woff'); /* Путь к файлу со шрифтом */		
+		}
+
+		@font-face {
+		    font-family: MuseoSlabLight; /* Имя шрифта */
+		    src: url(fonts/MuseoSlab-500.ttf) format('ttf'),
+		        url(fonts/MuseoSlab-500.woff2) format('woff2'), /* Путь к файлу со шрифтом */		  
+		        url(fonts/MuseoSlab-500.woff) format('woff'); /* Путь к файлу со шрифтом */		  
+		}
+
+		canvas {
+			position: absolute;
+			max-width: 100%;
+			max-height: 100%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		body {
+			background: black;
+		}	
+
+	</style>
+
+	<script type="text/javascript">
+	    let type = "WebGL"
+	    if(!PIXI.utils.isWebGLSupported()){
+	      type = "canvas"
+	    }
+
+	    PIXI.utils.sayHello(type)
+  </script>
+</head>
+<body>
+	<script src="game.js"></script>
+</body>
+</html>

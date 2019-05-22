@@ -1,0 +1,139 @@
+
+Emma_animation.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Emma character/Body
+  rotate: false
+  xy: 0, 250
+  size: 210, 262
+  orig: 210, 262
+  offset: 0, 0
+  index: -1
+images/Emma character/arm
+  rotate: true
+  xy: 212, 243
+  size: 35, 164
+  orig: 35, 164
+  offset: 0, 0
+  index: -1
+images/Emma character/eyebrow-01
+  rotate: true
+  xy: 499, 476
+  size: 36, 12
+  orig: 36, 12
+  offset: 0, 0
+  index: -1
+images/Emma character/fear_mouth
+  rotate: false
+  xy: 190, 105
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+images/Emma character/full_eye_fear_1-01-01
+  rotate: false
+  xy: 334, 191
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+images/Emma character/full_eye_fear_2
+  rotate: true
+  xy: 101, 0
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+images/Emma character/full_eye_happy_-01
+  rotate: false
+  xy: 296, 137
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+images/Emma character/full_eye_sad_1-01
+  rotate: false
+  xy: 101, 49
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+images/Emma character/glasses-01
+  rotate: true
+  xy: 0, 25
+  size: 223, 99
+  orig: 223, 99
+  offset: 0, 0
+  index: -1
+images/Emma character/hair-01
+  rotate: true
+  xy: 101, 105
+  size: 143, 87
+  orig: 143, 87
+  offset: 0, 0
+  index: -1
+images/Emma character/hair2-01
+  rotate: false
+  xy: 190, 189
+  size: 142, 52
+  orig: 142, 52
+  offset: 0, 0
+  index: -1
+images/Emma character/hair4-01
+  rotate: false
+  xy: 212, 376
+  size: 285, 136
+  orig: 285, 136
+  offset: 0, 0
+  index: -1
+images/Emma character/hair5-01
+  rotate: false
+  xy: 212, 280
+  size: 227, 94
+  orig: 227, 94
+  offset: 0, 0
+  index: -1
+images/Emma character/hair6-01
+  rotate: true
+  xy: 441, 283
+  size: 16, 38
+  orig: 16, 38
+  offset: 0, 0
+  index: -1
+images/Emma character/leg-01
+  rotate: true
+  xy: 190, 133
+  size: 54, 104
+  orig: 54, 104
+  offset: 0, 0
+  index: -1
+images/Emma character/mouth_-01
+  rotate: true
+  xy: 482, 353
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+images/Emma character/mouth_happy
+  rotate: false
+  xy: 0, 5
+  size: 32, 18
+  orig: 32, 18
+  offset: 0, 0
+  index: -1
+images/Emma character/mouth_sad
+  rotate: false
+  xy: 153, 87
+  size: 34, 16
+  orig: 34, 16
+  offset: 0, 0
+  index: -1
+images/Emma character/tie-01
+  rotate: true
+  xy: 441, 301
+  size: 73, 39
+  orig: 73, 39
+  offset: 0, 0
+  index: -1
